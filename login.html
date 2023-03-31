@@ -10,7 +10,7 @@
     <title>Login</title>
 </head>
 <body id="login_page">
-    <div class="conteiner">
+    <div class="container">
         <header class="top_page">
             
         </header>
@@ -25,12 +25,12 @@
                         <form id="login_form">
                             <h3>Login</h3>
                             <label for="campo_email">E-mail</label><br>
-                            <input type="text" id="campo_email"><br>
+                            <input type="email" id="campo_email" required placeholder="fulanadetal@outlook.com"><br>
                             
                             <label for="campo_email">Senha</label><br>
-                            <input type="password" id="campo_senha"><br>
+                            <input type="password" id="campo_senha" required placeholder=" digite sua senha"><br>
                             
-                            <button type="submit" id="botao_entrar" value="Entrar">Entrar</button>
+                            <button type="submit" onclick="validarLogin()" id="botao_entrar" value="Entrar">Entrar</button>
                         </form>
                     </div>
 
